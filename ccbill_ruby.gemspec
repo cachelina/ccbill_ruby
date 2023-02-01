@@ -30,7 +30,7 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^exe/}) { |f| File.basename(f) }
   gem.require_paths = ["lib"]
 
-  gem.add_dependency "thor", "~> 0.20.3"
+  gem.add_dependency "thor", "~> 1.2.1"
 
   gem.add_development_dependency "bundler", "~> 2.0"
   gem.add_development_dependency "rake", "~> 10.0"
